@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+}
+header {
+  height: 130px;
+  width: 99%;
+  margin: 0 auto;
+  margin-top: 1px;
+  /* border: 2px solid #000000; */
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 68px;
+  left: 580px;
+}
+.menu ul {
+  display: flex;
+  gap: 38px;
+  list-style: none;
+  font-size: 15px;
+}
+.auth {
+  display: flex;
+  gap: 25px;
+  position: absolute;
+  left: 1480px;
+  top: 68px;
+}
+.auth a {
+  text-decoration: none;
+  gap: 20px;
+  font-size: 15px;
+}
+.login-btn {
+  transition: background-color 0.3s ease;
+}
+.login-btn a:hover {
+  background-color: #334bb5;
+}
+.login-btn a {
+  background-color: #54b8ff;
+  padding: 24px 88px;
+  color: #ffff;
+}
+.signin-btn a {
+  color: #000000;
+}
+.logo {
+  position: absolute;
+  left: 58px;
+  top: 18px;
+}
+.apply-btn button {
+  background-color: #54b8ff;
+  height: 56px;
+  width: 200px;
+  border: none;
+  outline: none;
+}
+.apply-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 670px ;
+  left: 114px;
+  transition: background-color 0.3s ease;
+}
+.apply-btn button:hover {
+  background-color: #334bb5;
+}
+.apply-btn button a {
+  text-decoration: none;
+  font-family: "poppins", sans-serif;
+  font-size: 18px;
+  color: #ffff;
+}
+.apply-btn img {
+  position: absolute;
+  left: 150px;
+  top: 110;
+}
+.hero-sub-title {
+  position: absolute;
+  top: 258px;
+  left: 114px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #2f2b71;
+}
+.hero-title {
+  position: absolute;
+  top: 308px;
+  left: 109px;
+  font-size: 70px;
+  color: #5f596e;
+  font-weight: 700;
+  line-height: 120px;
+}
+.hero-para {
+  position: absolute;
+  top: 570px;
+  left: 114px;
+  font-size: 20px;
+  color: #000000;
+}
+.hero-image {
+  position: absolute;
+  top: 200px;
+  left: 1130px;
+}
+.element-1 {
+  position: absolute;
+  top: 119px;
+  left: -5px;
+}
+.element-2 {
+  position: absolute;
+  top: 742px;
+  left: -5px;
+}
+.element-3 {
+  position: absolute;
+  top: 244px;
+  left: 1873px;
+}
+.element-4 {
+  position: absolute;
+  top: 710px;
+  left: 1836px;
+}
+.triangle-top {
+  position: absolute;
+  top: 713px;
+  left: 850px;
+}
+.triangle-mid-left {
+  position: absolute;
+  top: 772px;
+  left: 752px;
+}
+.triangle-mid-right {
+  position: absolute;
+  top: 760px;
+  left: 830px;
+}
+.triangle-bottom-left {
+  position: absolute;
+  top: 838px;
+  left: 694px;
+}
+.triangle-bottom-right {
+  position: absolute;
+  top: 838px;
+  left: 830px;
+}
+
